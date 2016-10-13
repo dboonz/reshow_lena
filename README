@@ -1,0 +1,20 @@
+In the last version of Scipy the standard image for image processing was removed. This tiny repository enables you to re-use it. I simply copied the original function from the scipy archive.
+
+Installing:
+
+just clone the repo and type
+
+    python setup.py develop
+
+And you're ready to go.
+
+To use it afterwards, replace all
+
+    from scipy.misc import lena
+
+with
+  
+    from reshow_lena import lena
+
+And you should be ready to go.
+
